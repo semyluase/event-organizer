@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif !important;
+}
+
+
+/* Navbar */
+
+nav {
+    background-color: #366f90 !important;
+}
+
+nav .navbar-brand {
+    font-family: "Lobster", cursive;
+    font-size: 2.4em;
+    color: #acc9c5 !important;
+}
+
+nav .navbar-brand:hover {
+    color: #fff !important;
+}
+
+nav .navbar-nav {
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+nav .navbar-nav .nav-link {
+    color: #acc9c5 !important;
+    padding-right: 20px !important;
+}
+
+nav .navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: rgba(146, 165, 230, 0.7);
+    padding-top: 7em;
+    padding-bottom: 3em;
+}
+
+.jumbotron img {
+    border-radius: 10px;
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron p {
+    color: #ef8062;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+/* title */
+
+.section-title {
+    color: #ef8062;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+/* about us */
+
+.about-us {
+    padding: 2em 0;
+    padding-top: 6em;
+}
+
+.about-us p {
+    color: #ef8062;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+
+/* services */
+
+.services {
+    background-color: rgba(146, 165, 230, 0.7);
+    padding: 2em 0;
+    padding-top: 6em;
+}
+
+.services .card {
+    text-align: center;
+}
+
+.services .card-title {
+    font-size: 6em;
+    color: #ef8062;
+}
+
+.services .card-subtitle {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #ef8062;
+}
+
+.services .card-text {
+    color: #ef8062;
+}
+
+
+/* Gallery */
+
+.gallery {
+    padding: 2em 0;
+    padding-top: 6em;
+}
+
+.gallery .card {
+    width: 300px;
+    height: 300px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* contact */
+
+.contact {
+    padding: 2em 0;
+    background-color: rgba(146, 165, 230, 0.7);
+    padding-top: 6em;
+}
+
+.contact form label {
+    color: #ef8062;
+    font-size: 1.2em;
+}
+
+.contact form .btn-custom {
+    background-color: #748e8b;
+    color: #fff;
+    padding: 10px 15px;
+    border: 0;
+}
+
+.contact form .btn-custom:hover {
+    color: #748e8b;
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #748e8b;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #366f90 !important;
+    padding: 20px 30px;
+}
+
+footer .copy {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ef8062;
+}
